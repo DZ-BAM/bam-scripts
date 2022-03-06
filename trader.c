@@ -7,7 +7,7 @@
 
 const string TRADER_OBJECTS = "$profile:\\dzbam_traderobjects.json"
 
-void DZBAM_CreateTraderObjects(string filename)
+void DZBAM_CreateTraderObjects()
 {
         DZBAM_CreateObjects(TRADER_OBJECTS);
 }
