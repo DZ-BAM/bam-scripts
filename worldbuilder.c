@@ -35,7 +35,7 @@ ref DZBAM_Objects DZBAM_LoadObjects(string filename)
         return objects;
 }
 
-void DZBAM_CreateObjects(ref DZ_DZBAM_Objects objects)
+void DZBAM_CreateObjects(ref DZBAM_Objects objects)
 {
         foreach(DZBAM_Object obj: objects)
 		obj.Spawn();
