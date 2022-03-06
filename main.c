@@ -6,7 +6,7 @@
 #include "$CurrentDir:\\bam-scripts\\trader.c"
 
 
-void DZ_BAM_main()
+void DZBAM_main()
 {
 	DZBAM_CreateTraderObjects();
 }
