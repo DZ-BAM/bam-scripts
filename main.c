@@ -8,7 +8,7 @@
 
 void DZBAM_main()
 {
-	DZBAM_CreateTraderObjects();
+    DZBAM_CreateTraderObjects();
 }
 
 #endif
