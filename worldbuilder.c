@@ -4,7 +4,7 @@
 #ifndef DZBAM_WORLDBUILDER
 #define DZBAM_WORLDBUILDER
 
-class DZBAM_Object()
+class DZBAM_Object
 {
         string name;
         vector position;
