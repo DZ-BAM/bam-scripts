@@ -5,7 +5,7 @@
 #define DZBAM_TRADER
 #include "$CurrentDir:\\bam-scripts\\worldbuilder.c"
 
-const string TRADER_OBJECTS = "$profile:\\dzbam_traderobjects.json"
+const string TRADER_OBJECTS = "$profile:\\dzbam_traderobjects.json";
 
 void DZBAM_CreateTraderObjects()
 {
