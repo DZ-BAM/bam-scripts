@@ -2,11 +2,11 @@
 #define BAM_INVENTORY
 
 #ifndef BAM_ERROR
-#include "$CurrentDir:bam-deerisle-cfg/BAM_Scripts/error.c"
+#include "$CurrentDir:bam-scripts/error.c"
 #endif
 
 #ifndef BAM_WEAPON
-#include "$CurrentDir:bam-deerisle-cfg/BAM_Scripts/weapon.c"
+#include "$CurrentDir:bam-scripts/weapon.c"
 #endif
 
 class BAM_Inventory {

@@ -2,11 +2,11 @@
 #define BAM_SPAWN
 
 #ifndef BAM_CLOTHING
-#include "$CurrentDir:bam-deerisle-cfg/BAM_Scripts/clothing.c"
+#include "$CurrentDir:bam-scripts/clothing.c"
 #endif
 
 #ifndef BAM_INVENTORY
-#include "$CurrentDir:bam-deerisle-cfg/BAM_Scripts/inventory.c"
+#include "$CurrentDir:bam-scripts/inventory.c"
 #endif
 
 const ref BAM_Clothing CLOTHING = new BAM_Clothing(

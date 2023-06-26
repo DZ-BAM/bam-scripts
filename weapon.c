@@ -2,7 +2,7 @@
 #define BAM_WEAPON
 
 #ifndef BAM_ERROR
-#include "$CurrentDir:bam-deerisle-cfg/BAM_Scripts/error.c"
+#include "$CurrentDir:bam-scripts/error.c"
 #endif
 
 class BAM_Weapon {
