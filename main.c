@@ -1,14 +1,8 @@
-/*
- * Main script for custom functions.
- */
-#ifndef DZBAM_MAIN
-#define DZBAM_MAIN
-#include "$CurrentDir:\\bam-scripts\\trader.c"
+#ifndef BAM_MAIN
+#define BAM_MAIN
 
-
-void DZBAM_main()
-{
-    DZBAM_CreateTraderObjects();
-}
+#ifndef BAM_SPAWN
+#include "$CurrentDir:bam-deerisle-cfg/BAM_Scripts/spawn.c"
+#endif
 
 #endif
